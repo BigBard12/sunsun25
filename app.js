@@ -1,6 +1,6 @@
 function checkFortune() {
-            var colour = document.getElementById('colour-select').value;
-            var number = parseInt(document.getElementById('number-input').value, 10);
+            var name = document.getElementById('colour-select').value;
+            var name = parseInt(document.getElementById('number-input').value, 10);
             var result = "もう一度やってね！"; // デフォルトの値
             
             if (name === "阪神タイガース" && name ==="投手") {
