@@ -1,8 +1,7 @@
 function checkFortune() {
             var colour = document.getElementById('colour-select').value;
             var number = parseInt(document.getElementById('number-input').value, 10);
-            var result = "凶"; // デフォルトの値
-
+            
             if (colour === "阪神タイガース" && number ===1) {
                 result = "
 00	ゲラ	1995.09.25	183	86	右	左  
