@@ -3,28 +3,44 @@ function checkFortune() {
             var name = parseInt(document.getElementById('number-input').value, 10);
             var result = "もう一度やってね！"; // デフォルトの値
             
-            if (select === "阪神タイガース" && name ==="投手") {
-                result = "わー";
-            } else if (select === "阪神タイガース" && name === "捕手") {
-                result = "2	梅野　隆太郎	1991.06.17	173	79	右	右";
-            } else if (select === "阪神タイガース" && name ==="内野手") {
-                result = "0	木浪　聖也	1994.06.15	179	83	右	左";
-            } else if (select === "阪神タイガース" && name === "外野手") {
-                result = "1	森下　翔太	2000.08.14	182	89	右	右";
-            } else if (select === "阪神タイガース" && name === "監督"){
-                result = "80	岡田　彰布	1957.11.25	";
-            } else if (select === "読売ジャイアンツ" && name === "投手") {
-                result = "15	大勢	1999.06.29	183	90	右	右	";
-            } else if (select === "読売ジャイアンツ" && name ==="捕手") {
-                result = "22	小林　誠司	1989.06.07	178	86	右	右	";
-            } else if (select === "読売ジャイアンツ" && name === "内野手") {
-                result = "00	湯浅　大	2000.01.24	172	73	右	右";
-            } else if (select === "読売ジャイアンツ" && name === "外野手") {
-                result = "7	長野　久義	1984.12.06	180	85	右	右	";
-            }else if (select === "読売ジャイアンツ" && name === "監督") {
-                result = "83	阿部　慎之助	1979.03.20	";
-            }
+            if (select === "投手" && name ==="セリーグ") {
+                result = "18　読売ジャイアンツ　菅野　智之（すがの・ともゆき）ー4年ぶり5度目";
+            } else if (select === ""投手" && name === "パリーグ") {
+                result = "35 福岡ソフトバンクホークス Ｌ．モイネロ（LIVAN MOINELO）ー初受賞";
+            } else if (select === "捕手" && name === "セリーグ") {
+                result = "50　横浜DeNAベイスターズ　山本　祐大（やまもと・ゆうだい）ー初受賞";
+            } else if (select === "捕手" && name === "パリーグ") {
+                result = "19　福岡ソフトバンクホークス　甲斐　拓也（かい・たくや）ー2年ぶり7度目";
+            } else if (select === "一塁手" && name ==="セリーグ") {
+                result = "25　読売ジャイアンツ　岡本　和真（おかもと・かずま）ー初受賞（他に三塁手で2度）";
+            }else if (select === "一塁手" && name === "パリーグ") {
+                result = "25　福岡ソフトバンクホークス　山川　穂高（やまかわ・ほたか）ー初受賞";
+            }  else if (select === "二塁手" && name === "セリーグ") {
+                result = "2　読売ジャイアンツ　吉川　尚輝（よしかわ・なおき）ー初受賞";
+            }else if (select === "二塁手" && name === "パリーグ") {
+                result = "0　東北楽天ゴールデンイーグルス　小深田　大翔（こぶかた・ひろと）ー初受賞";
+            }  else if (select === "三塁手" && name === "パリーグ"){
+                result = "6　読売ジャイアンツ　坂本　勇人（さかもと・はやと）ー初受賞（他に遊撃手で5度）";
+            }else if (select === "三塁手" && name === "パリーグ") {
+                result = "24　福岡ソフトバンクホークス　栗原　陵矢（くりはら・りょうや）ー初受賞";
+            }  else if (select === "遊撃手" && name === "セリーグ") {
+                result = "61　広島東洋カープ　矢野　雅哉（やの・まさや）ー初受賞";
+            } else if (select === "遊撃手" && name === "パリーグ") {
+                result = "6　埼玉西武ライオンズ　源田　壮亮（げんだ・そうすけ）ー7連続7度目";
+            } else if (select === "外野手" && name ==="セリーグ") {
+                result = "9 広島東洋カープ 秋山　翔吾（あきやま・しょうご）ー初受賞（他にパ外野手で6度）";
+            }else if (select === "捕手" && name === "パリーグ") {
+                result = "8　東北楽天ゴールデンイーグルス　辰己　涼介（たつみ・りょうすけ）ー4年連続4度目";
+            }  else if (select === "外野手" && name === "セリーグ") {
+                result = "1　中日ドラゴンズ　岡林　勇希（おかばやし・ゆうき）ー3年連続3度目";
+            } else if (select === "外野手" && name === "パリーグ") {
+                result = "23　福岡ソフトバンクホークス　周東　佑京（しゅうとう・うきょう）ー初受賞";
+            } else if (select === "外野手" && name === "セリーグ") {
+                result = "5　阪神タイガース　近本　光司（ちかもと・こうじ）ー4年連続4度目";
+            }else if (select === "外野手" && name === "パリーグ") {
+                result = "66　北海道日本ハムファイターズ　万波　中正（まんなみ・ちゅうせい）－2年連続2度目";
+            } 
 
 
-            document.getElementById('result-output').innerText = "このポジションの選手は【" + result + "】です";
+            document.getElementById('result-output').innerText = "このポジションの受賞選手は【" + result + "】です";
         }
