@@ -5,7 +5,7 @@ function checkFortune() {
             
             if (select === "投手" && name ==="セリーグ") {
                 result = "18　読売ジャイアンツ　菅野　智之（すがの・ともゆき）ー4年ぶり5度目";
-            } else if (select === ""投手" && name === "パリーグ") {
+            } else if (select === "投手" && name === "パリーグ") {
                 result = "35 福岡ソフトバンクホークス Ｌ．モイネロ（LIVAN MOINELO）ー初受賞";
             } else if (select === "捕手" && name === "セリーグ") {
                 result = "50　横浜DeNAベイスターズ　山本　祐大（やまもと・ゆうだい）ー初受賞";
