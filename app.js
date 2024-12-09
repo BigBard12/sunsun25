@@ -1,5 +1,5 @@
 function checkFortune() {
-            var select = document.getElementById('colour-select').value;
+            var position = document.getElementById('colour-select').value;
             var name = parseInt(document.getElementById('number-input').value, 10);
             var result = "もう一度やってね！"; // デフォルトの値
             
