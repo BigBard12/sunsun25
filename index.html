@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- ビューポート設定を追加 -->
-<title>セリーグの2024スタメン選手名鑑</title>
+<title>2024年度 三井ゴールデン・グラブ賞</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
     
@@ -17,21 +17,25 @@
     </nav>
 
         <br>
-        <label for="select">好きな球団を選んでください：</label>
-        <select id="select">
-            <option value="阪神タイガース">阪神タイガース</option>
-            <option value="読売ジャイアンツ">読売ジャイアンツ</option>
-            <option value="横浜DeNAベイスターズ">横浜DeNAベイスターズ</option>
-　　　　　　<option value="中日">中日</option>
-　　　　　　<option value="広島カープ">広島カープ</option>
-            <option value="ヤクルトスワローズ">ヤクルトスワローズ</option>
+        <label for="position-select">ポジションを選んでください：</label>
+        <select id="position-select">
+            <option value="投手">投手</option>
+            <option value="捕手">捕手</option>
+            <option value="一塁手">一塁手</option>
+　　　　　　<option value="二塁手">二塁手</option>
+　　　　　　<option value="三塁手">三塁手</option>
+           <option value="遊撃手">遊撃手</option>
+            <option value="外野手">外野手</option>
+　　　　　　　<option value="外野手">外野手</option>
+　　　　　　　<option value="外野手">外野手</option>
+　　　　　　
             
         </select>
         <br>
-        <label for="name-imput">ポジションを選んでください（監督、投手、捕手、内野手、外野手）：</label>
+        <label for="name-imput">セ・パリーグどちらか選んでください（セリーグ、パリーグ）：</label>
         <input type="name" id="name-input">
         <br>
-        <button onclick="checkFortune()">セリーグの2024スタメン選手名鑑</button>
+        <button onclick="checkFortune()">選手をチェック</button>
         <p id="result-output"></p>
         
     <nav>
