@@ -1,6 +1,6 @@
 function checkFortune() {
     var position = document.getElementById('position-select').value;  
-    var name = document.getElementById('name-input').value, 10; 
+    var name = parseInt(document.getElementById('name-input').value, 10); 
     var result = "もう一度やってね！"; // Default message
 
     if (position === "投手" && name === "セリーグ") {
