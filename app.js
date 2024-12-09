@@ -3,8 +3,8 @@ function checkFortune() {
             var name = parseInt(document.getElementById('number-input').value, 10);
             var result = "もう一度やってね！"; // デフォルトの値
             
-            if (select === "阪神タイガース" && name ===投手) {
-                result = "00	ゲラ	1995.09.25	183	86	右	左";
+            if (select === "阪神タイガース" && name ==="投手") {
+                result = "わー";
             } else if (select === "阪神タイガース" && name === "捕手") {
                 result = "2	梅野　隆太郎	1991.06.17	173	79	右	右";
             } else if (select === "阪神タイガース" && name ==="内野手") {
