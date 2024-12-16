@@ -1,7 +1,7 @@
 function checkFortune() {
             var position = document.getElementById('position-select').value;
             var name = parseInt(document.getElementById('name-input').value, 10);
-            var result = "もう一度やってね！"; // デフォルトの値
+            var result = "エラー"; // デフォルトの値
             
             if (position === "投手" && name ==="セリーグ") {
                 result = "18　読売ジャイアンツ　菅野　智之（すがの・ともゆき）ー4年ぶり5度目";
