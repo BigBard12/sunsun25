@@ -4,7 +4,7 @@ function checkFortune() {
             var result = "エラー"; // デフォルトの値
             
             if (position === "投手" && name ==="セリーグ") {
-                result = "18　読売ジャイアンツ　菅野　智之（すがの・ともゆき）ー4年ぶり5度目";
+                result = "18";
             } else if (position === "投手" && name === "パリーグ") {
                 result = "35 福岡ソフトバンクホークス Ｌ．モイネロ（LIVAN MOINELO）ー初受賞";
             } else if (position === "捕手" && name === "セリーグ") {
