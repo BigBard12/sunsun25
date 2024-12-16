@@ -4,7 +4,7 @@ function checkFortune() {
             var result = "エラー"; // デフォルトの値
             
             if(position === "投手" && league ==="セリーグ") {
-               result = "18　読売ジャイアンツ　菅野　智之（すがの・ともゆき）ー4年ぶり5度目"
+               result = "18　読売ジャイアンツ　菅野　智之（すがの・ともゆき）ー4年ぶり5度目";
                             img src="018_41745137.jpg"alt="菅野"width="40%";
             } else if (position === "投手" && league === "パリーグ") {
                result = "35 福岡ソフトバンクホークス Ｌ．モイネロ（LIVAN MOINELO）ー初受賞";
