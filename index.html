@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
 <body bgcolor=#808080 text="white">
 
     
@@ -40,14 +41,15 @@
         </select>
         <br>
          <label for="league-select">リーグを選んでください：</label>
-        <select id="league-select">
+        <select id="league-select" min="セリーグ" max="パリーグ">
             <option value="セリーグ">セリーグ</option>
             <option value="パリーグ">パリーグ</option>
         </select>
         <br>
         <button onclick="checkFortune()">選手をチェック</button>
         <p id="result-output"></p>
-        
+        <div id="image-container" style="margin-top:20px;"></div>
+    </div>
         <nav>
             <a href="index.html">Home</a>
             <a href="pyscript.html">PyScriptVer</a>
