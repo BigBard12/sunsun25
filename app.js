@@ -1,6 +1,6 @@
 function checkFortune() {
-            var position = document.getElementById('position-select').value;
-            var league = document.getElementById('league-select').value;
+            const position = document.getElementById('position-select').value;
+            const league = document.getElementById('league-select').value;
             let result = "エラー"; // デフォルトの値
             
             if(position === "投手" && league ==="セリーグ") {
@@ -41,13 +41,13 @@ function checkFortune() {
                result = "66　北海道日本ハムファイターズ　万波　中正（まんなみ・ちゅうせい）－2年連続2度目";
             } 
 
-             // 結果を表示
-            document.getElementById('result-output').innerText = `このポジションの受賞選手は【${result}】です`;
+    // 結果を表示
+    document.getElementById('result-output').innerText = `このポジションの受賞選手は【${result}】です`;
         
 
-             // 画像の切り替え
-             const imageContainer = document.getElementById('image-container');
-             imageContainer.innerHTML = ""; // 既存の画像をクリア
+    // 画像の切り替え
+    const imageContainer = document.getElementById('image-container');
+    imageContainer.innerHTML = ""; // 既存の画像をクリア
 
     const img = document.createElement('img');
     switch (result) {
@@ -107,10 +107,7 @@ function checkFortune() {
             break;                    
     }
 
- 
-
-
- img.alt = result; // アクセシビリティのためのalt属性
+    img.alt = result; // アクセシビリティのためのalt属性
     img.style.width = "300px"; // 必要に応じてスタイルを調整
     imageContainer.appendChild(img);
 }
