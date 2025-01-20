@@ -44,7 +44,7 @@ function checkFortune() {
 
              // 結果を表示
             document.getElementById('result-output').innerText = `このポジションの受賞選手は【${result}】です`;
-        }
+        
 
              // 画像の切り替え
              const imageContainer = document.getElementById('image-container');
