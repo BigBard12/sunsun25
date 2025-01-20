@@ -102,9 +102,12 @@ function checkFortune() {
          case"5　阪神タイガース　近本　光司（ちかもと・こうじ）ー4年連続4度目":
             img.src = "images/005_71075138.jpg";
             break;
-         default:"66　北海道日本ハムファイターズ　万波　中正（まんなみ・ちゅうせい）－2年連続2度目":
+         case"66　北海道日本ハムファイターズ　万波　中正（まんなみ・ちゅうせい）－2年連続2度目":
             img.src = "images/066_11815138.jpg";
-            break;                    
+            break; 
+         default:
+            img.src = "images/moss.jpg";
+            break;                   
     }
 
     img.alt = result; // アクセシビリティのためのalt属性
