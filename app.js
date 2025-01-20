@@ -106,7 +106,7 @@ function checkFortune() {
             img.src = "images/066_11815138.jpg";
             break; 
          default:
-            img.src = "images/moss.jpg";
+            img.src = "images/16770-600x600.jpg";
             break;                   
     }
 
