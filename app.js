@@ -1,11 +1,10 @@
 function checkFortune() {
             var position = document.getElementById('position-select').value;
             var league = document.getElementById('league-select').value;
-            var result = "エラー"; // デフォルトの値
+            let result = "エラー"; // デフォルトの値
             
             if(position === "投手" && league ==="セリーグ") {
                result = "18　読売ジャイアンツ　菅野　智之（すがの・ともゆき）ー4年ぶり5度目";
-                        
             } else if (position === "投手" && league === "パリーグ") {
                result = "35 福岡ソフトバンクホークス Ｌ．モイネロ（LIVAN MOINELO）ー初受賞";
             }else if (position === "捕手" && league === "セリーグ") {
@@ -83,7 +82,7 @@ function checkFortune() {
             img.src = "images/024_01705130.jpg";
             break;                   
          case "61　広島東洋カープ　矢野　雅哉（やの・まさや）ー初受賞":
-            img.src = "images/ 061_93395153.jpg";
+            img.src = "images/061_93395153.jpg";
             break;
          case "6　埼玉西武ライオンズ　源田　壮亮（げんだ・そうすけ）ー7連続7度目":
             img.src = "images/006_71775134.jpg";
