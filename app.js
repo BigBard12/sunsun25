@@ -19,7 +19,7 @@ function checkFortune() {
                result = "2　読売ジャイアンツ　吉川　尚輝（よしかわ・なおき）ー初受賞";
             }else if (position === "二塁手" && league === "パリーグ") {
                result = "0　東北楽天ゴールデンイーグルス　小深田　大翔（こぶかた・ひろと）ー初受賞";
-            }else if (position === "三塁手" && league === "パリーグ"){
+            }else if (position === "三塁手" && league === "セリーグ"){
                result = "6　読売ジャイアンツ　坂本　勇人（さかもと・はやと）ー初受賞（他に遊撃手で5度）";
             }else if (position === "三塁手" && league === "パリーグ") {
                result = "24　福岡ソフトバンクホークス　栗原　陵矢（くりはら・りょうや）ー初受賞";
